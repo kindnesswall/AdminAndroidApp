@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AdminKindnessWall</string>
+
+    <string name="verification_not_received">کد تایید به دستم نرسیده</string>
+    <string name="field_hint_verification_code">کد تایید</string>
+    <string name="sign_up">دریافت کد تایید</string>
+    <string name="sign_in">ورود</string>
+    <string name="hint_telephone_field">شماره تلفن شما</string>
+    <string name="login_tip">با ورود به دیوار مهربانی توسط شماره تلفن خود می‌توانید هدیه‌های خود را
+		ثبت و مدیریت کنید.
+	</string>
+    <string name="conneciton_internet_failed_message">ظاهرا در ارتباط شما با اینترنت مشکلی وجود
+		دارد
+	</string>
+    <string name="conneciton_server_failed_message">ظاهرا در ارتباط شما با سرور مشکلی وجود دارد
+	</string>
+</resources>

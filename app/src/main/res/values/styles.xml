@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="MyMaterialTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme" parent="MyMaterialTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="InDeterminateWhiteCircularProgressDrawableStyle"
+        parent="Material.Drawable.CircularProgress">
+        <item name="cpd_strokeColor">@color/white</item>
+        <item name="cpd_strokeSecondaryColor">@color/dark_white</item>
+    </style>
+
+    <style name="MyToolbar" parent="@style/ThemeOverlay.AppCompat">
+        <!-- Title text -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+
+        <!-- Title color in AppCompat.Light  -->
+        <item name="android:textColorPrimaryInverse">@android:color/white</item>
+
+        <!-- Menu text-->
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <!-- Overflow -->
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <!-- This will change drawer icon -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- background of the  -->
+        <!-- <item name="android:background">@color/color_primary</item> -->
+    </style>
+
+</resources>
