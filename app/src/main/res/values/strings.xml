@@ -14,4 +14,8 @@
 	</string>
     <string name="conneciton_server_failed_message">ظاهرا در ارتباط شما با سرور مشکلی وجود دارد
 	</string>
+    <string name="cancel">بی‌خیال</string>
+    <string name="update_to_new_version">به روزرسانی به نسخه جدید</string>
+    <string name="exist_new_version">نسخه جدید برنامه موجود می باشد ، آیا به روز رسانی می نمایید؟
+	</string>
 </resources>

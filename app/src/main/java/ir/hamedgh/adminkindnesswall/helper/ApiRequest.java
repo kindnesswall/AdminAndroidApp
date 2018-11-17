@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import ir.hamedgh.adminkindnesswall.LoginActivity;
+import ir.hamedgh.adminkindnesswall.activity.LoginActivity;
 import ir.hamedgh.adminkindnesswall.app.AppController;
 import ir.hamedgh.adminkindnesswall.constants.Constants;
 import ir.hamedgh.adminkindnesswall.constants.RequestName;

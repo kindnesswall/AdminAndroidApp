@@ -1,4 +1,4 @@
-package ir.hamedgh.adminkindnesswall;
+package ir.hamedgh.adminkindnesswall.activity;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -21,6 +21,7 @@ import com.rey.material.widget.ProgressView;
 
 //import butterknife.BindView;
 //import butterknife.ButterKnife;
+import ir.hamedgh.adminkindnesswall.R;
 import ir.hamedgh.adminkindnesswall.app.AppController;
 import ir.hamedgh.adminkindnesswall.constants.Constants;
 import ir.hamedgh.adminkindnesswall.customviews.edittext.EditTextIranSans;
@@ -142,7 +143,7 @@ public class LoginActivity extends AppCompatActivity implements ApiRequest.Liste
 		} catch (Exception e) {
 
 		}
-		mToolbarTitleTextView.setText("ورود به دیوار مهربانی");
+		mToolbarTitleTextView.setText("ورود به مدیریت دیوار مهربانی");
 	}
 
 	private void loginWithCode(String confirmationCode) {
